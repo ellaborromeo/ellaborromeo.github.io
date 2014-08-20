@@ -5,6 +5,10 @@
   
    <link href='https://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'>
 
+   <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+   <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+
    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 
   <link rel="stylesheet" type="text/css" href="css/Livelaughlove.css">
@@ -14,25 +18,42 @@
   <header>
     <div class="first">Live Well, Laugh Often, Love Much...</div>
     <div class="second">
-      <img class="starfish" src="images/starfish.jpg">  
+      <img class="starfish" src="images/starfish.jpg">
+      <div class="star-caption"> I'm totally ready for this!</div>  
     </div>
   </header>
 
   <div class="third">
     <div class="ella">
-      <p>Ella: Lover of LIfe <br />
-  <small>I love mornings. For me it inspires me to be better each day. I find inspiration </small></p>
+      <p>
+        Passionate<br />
+        <small>I love mornings. For me it inspires me to be better each day even though sometimes I would hit the snooze button more than 10x. Everyday is a new chance to show the world that life is wonderful and full of surprises! At this point of my life, I am looking forward for a change. My passion is to build something that came out of a simple idea and making it come to life.</small>
+      </p>
     </div>
-    <div class="beachchair"></div>
-    <div class="ne"></div>
+   
+    <div class="beachchair">
+      <p>
+        Thinking outside the box<br />
+        <small>I can compare myself to Fashion. It gives me the opportunity to add my personal style and make it my own. As a healthcare professional, I felt like it was difficult for me to pursue a dream of becoming an innovator, to be myself. My day to day experience at work showed how passionate I am to help improve a process.</small>
+      </p>
+    </div>
+   
+    <div class="ne">
+      <p>
+        The Motivator<br />
+        <small>I knew for awhile I wanted to do something new. But I was too busy to even think about it. Thank goodness for my awesome (techie) husband who would show off his shiny new laptop, cool office invites and exciting projects! :) But seriously, he really made me think deeper about what I really wanted to pursue for my career. He saw the passion and potential in me to be successful in this industry.</small>
+      </p>
+    </div>
   </div>
 
+  <div class="sea-caption">Email me: bianca.borromeo@gmail.com</div>
+  <br />
   <footer>
     <div class="fourth">
-      <img class="seamail" src="images/seamail.jpg"> 
+     <img class="seamail" src="images/seamail.jpg">
     </div>
      <div class="fifth"> 
-      <h4>Pamela Borromeo . San Francisco . August 2014</h4>
+      <h4>Pamela Bianca Borromeo . San Francisco . August 2014</h4>
     </div>
   </footer>
 
@@ -42,7 +63,34 @@
   <script type="text/javascript" src="slick/slick.min.js"></script>
   <script type="text/javascript">
     $(document).ready(function(){
+      // Hide the Captions when page loads
+      $('.star-caption').hide()
+      $('.sea-caption').hide()
+
+      // Carousel Jquery Plugin
       $('.third').slick({
+      });
+
+      // bebedoo mag comment ka dito kung anong ginagawa nito :) (love you!!)
+      $( ".starfish" ).click(function() {
+        $( ".star-caption" ).toggle();
+      });
+
+      $( ".seamail" ).click(function() {
+        $( ".sea-caption" ).toggle();
+      });
+
+      // Add caption to pictures
+      $('.ella').on('click', function() {
+        $(this).toggleClass('show-description');
+      });
+
+      $('.beachchair').on('click', function() {
+        $(this).toggleClass('show-description');
+      });
+
+      $('.ne').on('click', function() {
+        $(this).toggleClass('show-description');
       });
     });
   </script>
