@@ -17,8 +17,8 @@
 <body>
   <header>
     <div class="first">Live Well, Laugh Often, Love Much...</div>
-    <div class="second">
-      <img class="starfish" src="images/starfish.jpg">
+      <div class="second">
+        <img class="starfish" src="images/starfish.jpg">
       <div class="star-caption"> I'm totally ready for this!</div>  
     </div>
   </header>
@@ -45,12 +45,12 @@
       </p>
     </div>
   </div>
-
-  <div class="sea-caption">Email me: bianca.borromeo@gmail.com</div>
   <br />
   <footer>
     <div class="fourth">
-     <img class="seamail" src="images/seamail.jpg">
+      <div class="sea-caption">Email me: bianca.borromeo@gmail.com
+      </div>
+     <img class="seamail" style="padding-top:45px;" src="images/seamail.jpg">
     </div>
      <div class="fifth"> 
       <h4>Pamela Bianca Borromeo . San Francisco . August 2014</h4>
@@ -58,6 +58,7 @@
   </footer>
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  
   <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   
   <script type="text/javascript" src="slick/slick.min.js"></script>
@@ -71,7 +72,7 @@
       $('.third').slick({
       });
 
-      // bebedoo mag comment ka dito kung anong ginagawa nito :) (love you!!)
+      // blah comment here
       $( ".starfish" ).click(function() {
         $( ".star-caption" ).toggle();
       });

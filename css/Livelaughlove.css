@@ -8,6 +8,8 @@ header {
 }
 .first {
   font-family: 'Reenie Beanie', cursive;
+  font-weight: bold;
+  color: #3B1F10;
   font-size: 110px;
   float: left;
   padding-top: 50px;
@@ -22,11 +24,15 @@ header {
   width: 200px;
   border-radius: 50%;
   padding-top: 10px;
-  padding-right: 10px; 
+  padding-right: 15px; 
 }
 .star-caption {
+  font-weight: bold;
+  color: #3B1F10;
   font-family: 'Pacifico', cursive;
   font-size: 25px;
+  position: absolute;
+  padding-right: 10px;
 }
 .third {
   width: 600px;
@@ -41,7 +47,7 @@ header {
   width: 600px;
   height: 400px;
   border: 10px dotted;
-  border-color: #ADEBEB;
+  border-color: #3B1F10;
   font-family: 'Indie Flower', cursive;
 }
 .beachchair {
@@ -50,7 +56,7 @@ header {
   width: 100%;
   height: 400px;
   border: 10px dotted;
-  border-color: #ADEBEB;
+  border-color: #3B1F10;
   font-family: 'Indie Flower', cursive;
 }
 .ne {
@@ -60,7 +66,7 @@ header {
   width: 600px;
   height: 400px; 
   border: 10px dotted;
-  border-color: #ADEBEB;
+  border-color: #3B1F10;
   font-family: 'Indie Flower', cursive;
 }
 footer {
@@ -76,8 +82,11 @@ footer {
   padding-left: 10px;
 }
 .sea-caption {
+  font-weight: bold;
+  color: #3B1F10;
   font-family: 'Pacifico', cursive;
   font-size: 25px;
+  position: absolute;
 }
 .fourth {
   float: left;
@@ -91,7 +100,8 @@ footer {
 h4 {
   text-align: left;
   text-indent: 170px;
-  padding-top: 75px;
+  padding-top: 165px;
+  color: #3B1F10;
 }
 small {
   opacity: 0;
