@@ -1,0 +1,58 @@
+body {
+  margin: 0px;
+  border: 10px dashed;
+  border-color: #E6B585;
+  border-radius: 80px;
+}
+header {
+  width: 100%;
+  height: 200px;
+}
+.first {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 90px;
+  float: left;
+  padding-top: 50px;
+  padding-left: 35px;
+}
+.second {
+  float: right;
+}
+.starfish {
+  opacity: 0.8;
+  height: 200px;
+  border-radius: 90px;
+}
+.third {
+  width: 900px;
+  height: 500px;
+  margin: 0 auto;
+}
+.beach {
+  opacity: 0.5;
+  width: 100%;
+  height: 500px;
+}
+footer {
+  width: 100%;
+  height: 155px;
+}
+.seamail {
+  opacity: 0.8;
+  height:145px;
+  border-bottom-left-radius: 10px;
+  padding-left: 45px;
+  padding-top: 10px;
+}
+.fourth {
+  float: left;
+}
+.fifth {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 30px;
+  float: right;
+  width: calc(100% - 250px);
+}
+h4 {
+  text-align: center;
+}

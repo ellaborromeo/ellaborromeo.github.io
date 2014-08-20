@@ -1,7 +1,47 @@
 <!DOCTYPE html>
-<html>
-  <body>
-    <h1>Ella Borromeo</h1>
-    <p>This is my first website</p>
-  </body>
-</html>
+<head>
+  <title>Live Laugh Love . . .</title>
+
+  
+   <link href='https://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'>
+
+   <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
+  <link rel="stylesheet" type="text/css" href="css/Livelaughlove.css">
+
+</head>
+<body>
+  <header>
+    <div class="first">Live Well, Laugh Often, Love Much...</div>
+    <div class="second">
+      <img class="starfish" src="images/starfish.jpg">  
+    </div>
+  </header>
+
+  <div class="third">
+     <div><img class="beach" src="images/ella.jpg"></div>
+    <div><img class="beach" src="images/beach.jpg"></div>
+    <div><img class="beach" src="images/beach.jpg"></div>
+  </div>
+
+  <footer>
+    <div class="fourth">
+      <img class="seamail" src="images/seamail.jpg"> 
+    </div>
+     <div class="fifth"> 
+      <h4>Pamela Borromeo . San Francisco . August 2014</h4>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.third').slick({
+        dots: true
+      });
+    });
+  </script>
+</body>
